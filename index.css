@@ -1,0 +1,46 @@
+.profileImage {
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    width: 100%;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+
+.button {
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.buttonDiv {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
